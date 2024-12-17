@@ -1,16 +1,34 @@
-# qushuiyin_j
+# 短视频去水印
 
-A new Flutter project.
+## 如何部署
 
-## Getting Started
+1. 克隆项目到本地
+git clone https://github.com/H9898/qushuiyin.git
 
-This project is a starting point for a Flutter application.
+2. 安装依赖
+cd cashier/frontend/qushuiyin_j
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+3. 运行项目
+flutter run -d chrome
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 项目介绍
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+本项目基于Flutter开发，是一个去水印的应用。
+
+主要功能：
+
+1.上传短视频链接，后台自动识别水印，并将去除；
+
+2.分析成功后，可将视频下载至本地或在线观看；
+
+3.目前仅支持抖音短视频去水印功能，后续将支持更多平台。
+
+## 结束
+注：仅供学习,切勿用于其他用途，由使用人自行承担因此引发的一切法律责任，作者不承担法律责任。
+
+喜欢的话，给个star呗
+
+喜欢的话，给个star呗
+
+喜欢的话，给个star呗
